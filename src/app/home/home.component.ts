@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+declare function demofunction():any;
+declare function  signupBtn():any;
+declare function  loginBtn():any;
+declare function  signupLink():any;
+
 
 @Component({
   selector: 'app-home',
@@ -10,6 +15,13 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
+   demofunction();
+   signupBtn();
+   loginBtn();
+   signupLink();
+  
+
   }
 
 }

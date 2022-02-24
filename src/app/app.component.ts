@@ -34,9 +34,9 @@ export class AppComponent {
   cssStringVar: string = 'red size20';
   //ngStyle
   color: string = 'red';
-
+  
+  
 }
-
 
 class Movie {
   title: string | undefined;
