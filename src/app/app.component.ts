@@ -29,7 +29,7 @@ export class AppComponent {
   //Using JavaScript object
   cssClass: CssClass = new CssClass();
   //ngClass using Array
-  cssArray: string[] = ['red', 'size20'];
+  cssArray: string[] = ['blue', 'size20'];
   //ngClass using String
   cssStringVar: string = 'red size20';
   //ngStyle
